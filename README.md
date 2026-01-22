@@ -69,6 +69,48 @@ The database consists of **five relational tables**, designed to support multi-d
 This relational structure enables **multi-table joins**, **aggregations**, and **dimensional analysis**, which are essential for real-world analytical workflows.
 
 ---
+## 🔄 Analysis Workflow
+
+This project follows a structured, end-to-end analytical workflow that mirrors how SQL is used in real business environments.
+
+<p align="center">
+  <img src="screenshots/workflowd.png" width="600" />
+</p>
+
+**Workflow Steps:**
+
+1. **Database Setup**  
+   - Created a new database schema in MySQL.  
+   - Defined table structures with appropriate data types.  
+   - Established primary and foreign key relationships.
+
+2. **Data Understanding & Validation**  
+   - Explored each table using basic `SELECT` queries.  
+   - Verified row counts and column integrity.  
+   - Identified key dimensions and metrics.
+
+3. **Business Question Formulation**  
+   - Translated raw data availability into business-relevant questions.  
+   - Focused on performance, profitability, trends, and market analysis.
+
+4. **SQL Query Development**  
+   - Wrote clean, well-commented SQL queries.  
+   - Applied filtering (`WHERE`), aggregation (`COUNT`, `SUM`, `AVG`),  
+     grouping (`GROUP BY`), and sorting (`ORDER BY`).  
+   - Used multi-table `JOIN`s to connect relational data.
+
+5. **Result Validation & Interpretation**  
+   - Reviewed query outputs for accuracy and consistency.  
+   - Interpreted results in a business context rather than just technical output.
+
+6. **Insight Documentation**  
+   - Captured query outputs as screenshots.  
+   - Summarized findings into clear, actionable insights.  
+   - Organized results for easy review by non-technical stakeholders.
+
+> 💡 **Why this workflow matters**  
+> This structured approach ensures reproducibility, clarity, and business relevance — key expectations for data analysts working with SQL.
+---
 
 ## ❓ Business Questions Answered
 
